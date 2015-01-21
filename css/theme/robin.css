@@ -48,7 +48,6 @@
 .reveal a {
   line-height: 1.3em; }
 
-/*@mixin bodyBackground() {*/
 html > body {
   /* 3d.jpg | 3d-blur.jpg | 3d-desat.jpg | 3d-blur-desat.jpg |
        maze-penrose.png |
@@ -60,8 +59,6 @@ html > body {
   background-color: #001122;
   background-size: cover; }
 
-/*    @include radial-gradient( #add9e4, #f7fbfc );*/
-/*}*/
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -314,3 +311,6 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #3b759e; }
+
+.reveal h1, .reveal h2 {
+  text-transform: none; }
