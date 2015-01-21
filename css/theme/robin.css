@@ -3,22 +3,30 @@
 /**
  * Robin theme for reveal.js.
  *
- * Copyright (C) 2015 Robi Berjon
+ * Copyright (C) 2015 Robin Berjon
  */
 .reveal a {
   line-height: 1.3em; }
 
+/*@mixin bodyBackground() {*/
+html > body {
+  /* 3d.jpg | 3d-blur.jpg | 3d-desat.jpg | 3d-blur-desat.jpg |
+       maze-penrose.png |
+       quasi-light.jpg | # possibly the best option
+       small-penrose.gif | # darker
+       small-penrose.jpg | # lighter, possibly excellent
+       squarish-penrose.png */
+  background: url("../../bg/small-penrose.jpg") center no-repeat;
+  background-color: #001122;
+  background-size: cover; }
+
+/*    @include radial-gradient( #add9e4, #f7fbfc );*/
+/*}*/
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #add9e4;
-  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
-  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: #f7fbfc;
   background-color: #f7fbfc; }
 
 .reveal {
