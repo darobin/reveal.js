@@ -312,5 +312,22 @@ body {
 .reveal .slide-number {
   color: #3b759e; }
 
+/*
+    colours:
+        bright pink:    #ff0dad
+        bright green:   #bfff00
+        bright blue:    #84f5fb
+        bright yellow:  #fffd60
+        bright orange:  #ffa100
+*/
 .reveal h1, .reveal h2 {
   text-transform: none; }
+
+h1 {
+  background: #ffa100; }
+
+h2 {
+  background: #fffd60; }
+
+h3 {
+  background: #84f5fb; }
